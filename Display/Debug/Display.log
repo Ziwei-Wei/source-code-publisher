@@ -1,0 +1,14 @@
+﻿  AbstrSynTree.cpp
+  FileSystem.cpp
+  GrammarHelpers.cpp
+  Logger.cpp
+  ActionsAndRules.cpp
+  ConfigureParser.cpp
+  Parser.cpp
+  ScopeStack.cpp
+  Semi.cpp
+  Toker.cpp
+  Display.cpp
+  TEST_Display.cpp
+  Generating Code...
+  Display.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher22\SourceCodePublisher2\Debug\Display.exe

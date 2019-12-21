@@ -1,0 +1,21 @@
+﻿  AbstrSynTree.cpp
+  FileSystem.cpp
+  GrammarHelpers.cpp
+  Logger.cpp
+  ActionsAndRules.cpp
+  ConfigureParser.cpp
+  Parser.cpp
+  ScopeStack.cpp
+  Semi.cpp
+  Toker.cpp
+  Display.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(65): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(99): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(163): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(164): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(256): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(261): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TEST_Display.cpp
+  Generating Code...
+  Display.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher2\x64\Debug\Display.exe

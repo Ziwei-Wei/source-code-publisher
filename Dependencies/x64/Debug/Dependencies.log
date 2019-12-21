@@ -1,0 +1,7 @@
+﻿  FileSystem.cpp
+  Toker.cpp
+  Dependencies.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\dependencies\dependencies.cpp(80): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TEST_Dependencies.cpp
+  Generating Code...
+  Dependencies.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher2\x64\Debug\Dependencies.exe

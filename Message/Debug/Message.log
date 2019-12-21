@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project '..\Utilities\CodeUtilities\CodeUtilities.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project '..\Utilities\StringUtilities\StringUtilities.vcxproj' does not exist.
+  Message.cpp
+  Message.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher3\Debug\Message.lib

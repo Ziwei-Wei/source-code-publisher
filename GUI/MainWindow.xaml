@@ -1,0 +1,52 @@
+﻿<Window x:Class="Project3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project3"
+        mc:Ignorable="d"
+        Title="Code Publisher" Height="750" MinWidth="400" MaxWidth="600" Loaded="Window_Loaded" Unloaded="Window_Unloaded">
+    <!-- 
+    /////////////////////////////////////////////////////////////////////
+    // MainWindow.xaml.cs - Prototype for OOD Project #3               //
+    //                                                                 //
+    // Jim Fawcett, CSE687 - Object Oriented Design, Fall 2019         //
+    /////////////////////////////////////////////////////////////////////
+  -->
+    <TabControl HorizontalAlignment="Stretch" FontFamily="tahoma" FontWeight="Medium" FontSize="16" Background="#ddd">
+        <TabItem Header="Convert Files" Padding="10 5">
+            <DockPanel VerticalAlignment="Stretch">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition MinHeight="24" Height="*"/>
+                        <RowDefinition MinHeight="24" Height="*"/>
+                        <RowDefinition MinHeight="24" Height="*"/>
+                        <RowDefinition MinHeight="24" Height="10*"/>
+                        <RowDefinition MinHeight="24" Height="*"/>
+                        <RowDefinition MinHeight="24" Height="20*"/>
+                        <RowDefinition MinHeight="24" Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" FontSize="12" Content="Selected Path:"/>
+                    <TextBlock Grid.Row="1" Margin="5" x:Name="CurrPath" x:FieldModifier="public" VerticalAlignment="Center" FontWeight="Medium" FontSize="12"></TextBlock>
+                    <Label Grid.Row="2" FontSize="12" Content="Path:"/>
+                    <ListBox Grid.Row="3" x:Name="Dirs" x:FieldModifier="public" FontWeight="Regular" FontSize="12" MouseDoubleClick="Dirs_MouseDoubleClick"></ListBox>
+                    <Label Grid.Row="4" FontSize="12" Content="Files:"/>
+                    <ListBox Grid.Row="5" x:Name="Files" x:FieldModifier="public" FontWeight="Regular" FontSize="12" SelectionMode="Single" SelectionChanged="Files_SelectionChanged"></ListBox>
+                    <Button Grid.Row="6" FontSize="12" Click="ConvertPath_Click" Content="Convert Selected Path"/>
+                </Grid>
+            </DockPanel>
+        </TabItem>
+        <TabItem Header="Browse Results" Padding="10 5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition MinHeight="24" Height="100*"></RowDefinition>
+                    <RowDefinition MinHeight="24" Height="*"></RowDefinition>
+                    <RowDefinition MinHeight="24" Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <ListBox Grid.Row="0" x:Name="Converted" x:FieldModifier="public" FontWeight="Regular" FontSize="12" MouseDoubleClick="Dirs_MouseDoubleClick" MinHeight="400"></ListBox>
+                <Button Grid.Row="1" Click="DisplayConverted_Click" FontSize="12" Content="Display All Converted Files"/>
+                <Button Grid.Row="2" Click="ClearConverted_Click" FontSize="12" Content="Clear All Converted Files"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

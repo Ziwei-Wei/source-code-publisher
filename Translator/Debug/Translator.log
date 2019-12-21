@@ -1,0 +1,3 @@
+﻿  Translator.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+Executive.lib(Toker.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Translator.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher3\Debug\Translator.dll

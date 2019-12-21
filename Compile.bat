@@ -1,0 +1,1 @@
+devenv SourceCodePublisher3.sln /build debug

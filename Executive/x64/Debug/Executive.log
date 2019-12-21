@@ -1,0 +1,43 @@
+﻿  AbstrSynTree.cpp
+  Converter.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\converter\converter.cpp(158): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Demonstrate.cpp
+  Dependencies.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\dependencies\dependencies.cpp(80): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Display.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(65): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(99): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(163): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(164): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(256): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\r2d404\desktop\sourcecodepublisher2\display\display.cpp(261): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  FileSystem.cpp
+  GrammarHelpers.cpp
+  Loader.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\loader\loader.cpp(87): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Logger.cpp
+  ActionsAndRules.cpp
+  ConfigureParser.cpp
+  Parser.cpp
+  Process.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\process\process.cpp(64): error C2440: '=': cannot convert from 'LPWSTR' to 'LPSTR'
+  c:\users\r2d404\desktop\sourcecodepublisher2\process\process.cpp(64): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\r2d404\desktop\sourcecodepublisher2\process\process.cpp(77): error C2440: 'const_cast': cannot convert from 'const _Elem *' to 'LPCTSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\users\r2d404\desktop\sourcecodepublisher2\process\process.cpp(77): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\r2d404\desktop\sourcecodepublisher2\process\process.cpp(78): error C2440: 'const_cast': cannot convert from 'const _Elem *' to 'LPTSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+  c:\users\r2d404\desktop\sourcecodepublisher2\process\process.cpp(78): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  RegexFilter.cpp
+  ScopeStack.cpp
+  Semi.cpp
+  Toker.cpp
+  Executive.cpp
+  Generating Code...

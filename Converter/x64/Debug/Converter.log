@@ -1,0 +1,6 @@
+﻿  FileSystem.cpp
+  Converter.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\converter\converter.cpp(158): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TEST_Converter.cpp
+  Generating Code...
+  Converter.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher2\x64\Debug\Converter.exe

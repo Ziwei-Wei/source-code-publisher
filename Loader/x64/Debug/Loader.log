@@ -1,0 +1,7 @@
+﻿  FileSystem.cpp
+  RegexFilter.cpp
+  Loader.cpp
+c:\users\r2d404\desktop\sourcecodepublisher2\loader\loader.cpp(87): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  TEST_Loader.cpp
+  Generating Code...
+  Loader.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher2\x64\Debug\Loader.lib

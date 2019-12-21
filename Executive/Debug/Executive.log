@@ -1,0 +1,20 @@
+﻿  AbstrSynTree.cpp
+  Converter.cpp
+  Demonstrate.cpp
+  Dependencies.cpp
+  Display.cpp
+  FileSystem.cpp
+  GrammarHelpers.cpp
+  Loader.cpp
+  Logger.cpp
+  ActionsAndRules.cpp
+  ConfigureParser.cpp
+  Parser.cpp
+  Process.cpp
+  RegexFilter.cpp
+  ScopeStack.cpp
+  Semi.cpp
+  Toker.cpp
+  Executive.cpp
+  Generating Code...
+  Executive.vcxproj -> C:\Users\R2D404\Desktop\SourceCodePublisher3\Debug\Executive.lib
